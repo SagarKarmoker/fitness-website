@@ -299,3 +299,52 @@ input:focus, select:focus, option:focus {
   top: -60px;
   left: 20px;
 }
+
+/* footer */
+.footer-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-name{
+  font-size: 70px;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--primary-color);
+}
+
+.text-6{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.fname-sec{
+  width: 30%;
+}
+
+.list{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+copyright {
+  width: 100%;
+}
+
+copyright-text{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 1px solid white;
+  opacity: 0.5;
+}
