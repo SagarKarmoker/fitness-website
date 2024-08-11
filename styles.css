@@ -263,6 +263,7 @@ main {
   width: 100%;
   height: 100%;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 /* training */
@@ -417,4 +418,44 @@ my-copyright-text{
 hr {
   border: 1px solid white;
   opacity: 0.5;
+}
+
+.ex-card {
+  display: flex;
+  height: 200px;
+}
+
+.ex-card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.customer-card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: #222222;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.customer-card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.cust-img-card{
+  width: 100px;
+  height: 100px;
+}
+
+.customer-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
