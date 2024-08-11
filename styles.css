@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   color: white;
   font-family: "Inter", sans-serif;
 }
@@ -333,15 +334,12 @@ input:focus, select:focus, option:focus {
   cursor: pointer;
 }
 
-copyright {
+my-copyright-text{
   width: 100%;
-}
-
-copyright-text{
-  display: flex;
-  justify-content: center;
   margin: 0;
   padding: 0;
+  margin-bottom: 0px; 
+  text-align: center;
 }
 
 hr {
