@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap");
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 body {
   margin: 0;
@@ -12,12 +12,6 @@ body {
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.grey-qo-regular {
-  font-family: "Grey Qo", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -93,6 +87,7 @@ nav p {
 .wc-right{
   align-items: end;
   height: fit-content;
+  position: relative;
 }
 
 .wc-title {
@@ -104,6 +99,10 @@ nav p {
 
 .wc-shape {
   font-weight: normal;
+  font-family: 'Miama', sans-serif;
+  font-size: 78px;
+  margin: 0;
+  padding: 0;
 }
 
 .mt{
@@ -154,9 +153,9 @@ nav p {
   border-radius: 10px;
   padding: 20px;
   gap: 20px;
-  position: relative;
-  bottom: 190px;
-  left: -90px;
+  position: absolute;
+  bottom: 20%;
+  left: -20%;
   background-color: #303030, transparent;
   opacity: 0.54;
   z-index: 1;
@@ -167,8 +166,10 @@ nav p {
 }
 
 .workout{
-  bottom: 550px;
-  left: 200px;
+  bottom: 55%;
+  left: 50%;
+  width: fit-content;
+  position: absolute;
 }
 
 /* main */
@@ -208,7 +209,7 @@ main {
 }
 
 .hide{
-  
+
 }
 
 .text-3{
