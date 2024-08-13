@@ -31,8 +31,12 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   padding: 0 var(--plr);
+}
+
+.burger{
+  display: none;
 }
 
 nav ul {
@@ -367,7 +371,7 @@ input:focus, select:focus, option:focus {
 .text-5{
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 20px;
 }
 
@@ -402,7 +406,7 @@ input:focus, select:focus, option:focus {
 }
 
 .fname-sec{
-  width: 30%;
+  width: 50%;
 }
 
 .list{

@@ -18,6 +18,11 @@
     align-items: start;
   }
 
+  .burger{
+    display: block;
+    cursor: pointer;
+  }
+
 .welcome-section{
     display: flex;
     flex-direction: column;
