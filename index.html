@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body class="bmi-bg">
@@ -18,6 +19,7 @@
                 <li>Contact</li>
                 <li>About</li>
             </ul>
+            <p>|||</p>
         </nav>
 
         <section class="welcome-section">
@@ -94,9 +96,10 @@
             <div class="run-card m100">
                 <div>
                     <p class="text-1 text-1-override">Run an Extra <br> Mile Easily</p>
-                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access
+                    <p class="text-2-mob">We believe fitness should be accessible to everyone, everywhere, regardless of
+                        income or access
                         to a gym. With hundreds of professional workouts.</p>
-                    <button class="btn wc-btn1">Join Now</button>
+                    <button class="btn wc-btn1 btn-mob">Join Now</button>
                 </div>
                 <div class="run-img-div">
                     <img class="run-img" src="images/run.jpg" alt="">
@@ -109,7 +112,7 @@
             <div class="m100">
                 <div style="margin-bottom: 50px;">
                     <p class="text-1 text-1-override">Trainings and Exercises</p>
-                    <p class="text-3" style="width: 50%; text-align: start;">
+                    <p class="text-3 w-100">
                         We believe fitness should be accessible to everyone, everywhere, regardless of income or
                         access
                         to a
@@ -121,8 +124,8 @@
                         <div style="width: 35%;">
                             <img class="img1" src="images/exercise1.jpg" alt="">
                         </div>
-                        <div >
-                            <img  src="images/exercise2.png" alt="">
+                        <div>
+                            <img src="images/exercise2.png" alt="">
                         </div>
                         <div style="width: 40%;">
                             <img src="images/exercise3.png" alt="">
@@ -139,7 +142,7 @@
                             <img src="images/exercise6.jpg" alt="">
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
         </section>
 
@@ -184,8 +187,8 @@
                         <p class="text-3 text-3-override">We believe fitness should be accessible to everyone,
                             everywhere, regardless of income or access to a gym. </p>
                         <div style="display: flex; flex-direction: column;
-                        gap: 20px;
-                            ">
+                    gap: 20px;
+                        ">
                             <div class="input-box">
                                 <input type="number" placeholder="Height/cm">
                                 <input type="number" placeholder="Weight/kg">
@@ -213,7 +216,7 @@
             <div style="margin-bottom: 50px;">
                 <p class="text-1 text-1-center">Meet Our Team</p>
                 <div class="text-3-center">
-                    <p class="text-3 text-3-center" style="width: 50%;">
+                    <p class="text-3 text-3-center w-100">
                         We believe fitness should be accessible to everyone, everywhere, regardless of income or access
                         to a
                         gym.
@@ -268,11 +271,11 @@
         </section>
 
         <!-- unique section -->
-         <section class="default-padding">
+        <section class="default-padding">
             <div style="padding-bottom: 100px;">
                 <div>
                     <h3 class="text-1">Our Customers</h3>
-                <p class="text-3">Know what our customer says about us</p>
+                    <p class="text-3">Know what our customer says about us</p>
                 </div>
                 <div class="customer-grid">
                     <div class="customer-card">
@@ -282,7 +285,9 @@
 
                         <div>
                             <p class="text-5">Jonh Bob</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis earum quo provident natus perferendis repudiandae nobis, dolorem quisquam accusamus a, minima quasi esse nihil assumenda voluptate amet laudantium nemo?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis earum quo provident
+                                natus perferendis repudiandae nobis, dolorem quisquam accusamus a, minima quasi esse
+                                nihil assumenda voluptate amet laudantium nemo?</p>
                         </div>
                     </div>
 
@@ -293,7 +298,9 @@
 
                         <div>
                             <p class="text-5">Jonh Bob</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis earum quo provident natus perferendis repudiandae nobis, dolorem quisquam accusamus a, minima quasi esse nihil assumenda voluptate amet laudantium nemo?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis earum quo provident
+                                natus perferendis repudiandae nobis, dolorem quisquam accusamus a, minima quasi esse
+                                nihil assumenda voluptate amet laudantium nemo?</p>
                         </div>
                     </div>
 
@@ -304,13 +311,14 @@
 
                         <div>
                             <p class="text-5">Jonh Bob</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis earum quo provident natus perferendis repudiandae nobis, dolorem quisquam accusamus a, minima quasi esse nihil assumenda voluptate amet laudantium nemo?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis earum quo provident
+                                natus perferendis repudiandae nobis, dolorem quisquam accusamus a, minima quasi esse
+                                nihil assumenda voluptate amet laudantium nemo?</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-         </section>
+        </section>
     </main>
 
     <!-- footer -->
@@ -318,12 +326,10 @@
         <div class="default-padding footer-card">
             <div class="fname-sec">
                 <p class="footer-name m0">Fitness</p>
-                <p class="text-3 text-3-override">We believe fitness should be accessible to everyone, everywhere,
-                    regardless of income
-                    or access to a gym. With hundreds of professional workouts.</p>
+                <p class="text-3 text-3-override w-100">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
             </div>
             <div>
-                <p class="text-6">Get Started</p>
+                <p class="text-6 mb">Get Started</p>
                 <ul class="list">
                     <li>Service</li>
                     <li>Contact Us</li>
@@ -332,7 +338,7 @@
                 </ul>
             </div>
             <div>
-                <p class="text-6">Get Started</p>
+                <p class="text-6 mb">Get Started</p>
                 <ul class="list">
                     <li>Service</li>
                     <li>Contact Us</li>
@@ -341,7 +347,7 @@
                 </ul>
             </div>
         </div>
-        <div class="default-padding">
+        <div class="default-padding mb">
             <hr>
         </div>
         <div class="default-padding">
@@ -350,6 +356,7 @@
             </p>
         </div>
     </footer>
+
 </body>
 
 </html>

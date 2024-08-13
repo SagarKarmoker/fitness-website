@@ -1,0 +1,149 @@
+@media only screen and (max-width: 567px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .default-padding{
+    padding: 0 40px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav {
+    padding: 50px 40px;
+    align-items: start;
+  }
+
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+.wc-title, .wc-shape{
+    font-size: 36px;
+}
+
+.wc-left {
+    width: 100%;
+  }
+  .wc-tagline {
+    padding: 20px 0;
+    font-size: 16px;
+  }
+
+  .video-tutorial{
+    bottom: 30%;
+    left: 2%;
+  }
+
+  .workout{
+    bottom: 70%;
+    left: 55%;    
+  }
+
+  .wc-right img{
+    margin-top: 20px;
+  }
+
+  .video-tutorial > p{
+    font-size: 30px;
+  }
+
+  .text-1{
+    font-size: 32px;
+  }
+
+  .text-2{
+    font-size: 14px;
+  }
+
+  .habit-div{
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .run-card{
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .btn-mob{
+    width: 100%;
+  }
+
+  .text-2-mob{
+    opacity: 0.5;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .w-100{
+    width: 100%;
+  }
+  
+  .text-1-override{
+    padding-bottom: 20px;
+  }
+
+  .text-1-center{
+    text-align: start;
+    padding: 40px 40px;
+  }
+
+  .bmi-cal{
+    flex-direction: column;
+  }
+
+  .chart{
+    width: 100%;
+  }
+
+  .text-4{
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .text-3-override{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .trainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-3-center{
+    text-align: center;
+  }
+
+  .customer-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-card{
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .mb {
+    margin-bottom: 20px;
+  }
+
+  .fname-sec{
+    width: 100%;
+  }
+}
