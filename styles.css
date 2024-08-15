@@ -212,10 +212,6 @@ main {
   opacity: 0.5;
 }
 
-.hide{
-
-}
-
 .text-3{
   font-size: 14px; 
   text-align: center;
@@ -268,6 +264,8 @@ main {
 
 .run-img-div{
   float: 1;
+  overflow: hidden;
+  border-radius: 15px;
 }
 
 .run-img {
@@ -275,6 +273,8 @@ main {
   height: 100%;
   border-radius: 15px;
   object-fit: cover;
+  transform: scale(3);
+  transform-origin: 70% 30%;
 }
 
 /* training */
